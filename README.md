@@ -1,6 +1,6 @@
 # seq2seq_model
 
-整理一下看到並且自己實作過的seq2seq (or + attention) model，作業類型大約都是偏語言相關的，與時間序列資料(如趨勢預測)較無關聯。另外目前使用+實作的attention mechanism 皆為Bahdanau attention (keras, tensorflow)與Loung attention (tensorflow)，尚未使用到Attention is all you need 論文中的multi-head self attention
+整理一下看到並且自己實作過的seq2seq (or + attention) model，作業類型大約都是偏語言相關的，與時間序列資料(如趨勢預測)較無關聯。另外目前使用+實作的attention mechanism 皆為Bahdanau attention (keras, tensorflow)與Loung attention (tensorflow)，尚未使用到Attention is all you need 論文中的multi-head self attention (後續持續新增，有看到keras有人已實作muti-head self attention Layer)
 
 ---
 
