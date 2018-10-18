@@ -1,11 +1,12 @@
 # seq2seq_model
----
 
 整理一下看到並且自己實作過的seq2seq (or + attention) model，作業類型大約都是偏語言相關的，與時間序列資料(如趨勢預測)較無關聯。另外目前使用+實作的attention mechanism 皆為Bahdanau attention (keras, tensorflow)與Loung attention (tensorflow)，尚未使用到Attention is all you need 論文中的multi-head self attention
 
+---
+
 1. [seq2seq_tensorflow](https://github.com/tan800630/seq2seq_model/blob/master/seq2seq_tensorflow.ipynb)
 
-以英法文翻譯為目標的seq2seq model，使用tensorflow框架 (自己嘗試過以此為基礎再加上attention mechanism 但效果差不多，也許是資料本身的長度較短的原因，尚待嘗試)
+以英法文翻譯為目標的seq2seq model，使用tensorflow框架 (自己嘗試過以此為基礎再加上attention mechanism 但效果差不多，也許是資料本  身的長度較短的原因，尚待嘗試)
 
 2. [seq2seq_with_attention_keras](https://github.com/tan800630/seq2seq_model/blob/master/seq2seq_with_attention_keras.ipynb)
 
